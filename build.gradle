@@ -1,0 +1,13 @@
+version '0.1'
+
+subprojects {
+    repositories {
+        jcenter()
+    }
+
+    plugins.withType(JavaPlugin).whenPluginAdded {
+        dependencies {
+            testCompile 'junit:junit:4.12'
+        }
+    }
+}

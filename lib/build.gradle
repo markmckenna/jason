@@ -1,1 +1,3 @@
+description "Jason -- a Java-based JSON library"
+
 apply plugin: 'java'
